@@ -1,0 +1,23 @@
+{
+  "name": "prototype-1",
+  "version": "1.0.0",
+  "description": "Aws/Data sync prototype 1",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.18.0",
+    "chokidar": "^3.4.3",
+    "dotenv": "^10.0.0",
+    "drag-drop": "^6.1.0",
+    "fs-extra": "^9.0.1",
+    "open": "^7.3.0"
+  }
+}
